@@ -1,6 +1,6 @@
 {
-  "name": "js-keycodes",
-  "version": "1.1.2",
+  "name": "@famence/js-keycodes",
+  "version": "1.1.4",
   "description": "Identify and work with keycodes on JavaScript",
   "main": "dist/keycodes.js",
   "devDependencies": {
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carlos-algms/js-keycodes.git"
+    "url": "git+https://github.com/famence/js-keycodes.git"
   },
   "keywords": [
     "key-codes",
@@ -28,12 +28,12 @@
     "js",
     "JavaScript"
   ],
-  "author": "Carlos A. Gomes <carlos.algms@gmail.com>",
+  "author": "Andrey Madzhidov <famence@yandex.ru>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carlos-algms/js-keycodes/issues"
+    "url": "https://github.com/famence/js-keycodes/issues"
   },
-  "homepage": "https://github.com/carlos-algms/js-keycodes#readme",
+  "homepage": "https://github.com/famence/js-keycodes#readme",
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"

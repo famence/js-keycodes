@@ -17,7 +17,7 @@ Key-Codes as constants and helper functions to identify characters
 ## Available Key Codes Constants
 
 ```javascript
-import { keyCodes } from 'js-keycodes';
+import { keyCodes } from '@famence/js-keycodes';
 
 keyCodes.ENTER === 13;
 // -> true
