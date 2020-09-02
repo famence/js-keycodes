@@ -1,10 +1,10 @@
 # js-keycodes
 
-[![travis build](https://api.travis-ci.com/carlos-algms/js-keycodes.svg?branch=master)](https://travis-ci.com/carlos-algms/js-keycodes)
-[![codecov](https://codecov.io/gh/carlos-algms/js-keycodes/branch/master/graph/badge.svg)](https://codecov.io/gh/carlos-algms/js-keycodes/branch/master)
-[![NPM version](https://img.shields.io/npm/v/js-keycodes)](https://www.npmjs.com/package/js-keycodes)
-[![Downloads](https://img.shields.io/npm/dy/js-keycodes)](https://www.npmjs.com/package/js-keycodes)
-[![License](https://img.shields.io/npm/l/js-keycodes)](https://tldrlegal.com/license/mit-license)
+[![travis build](https://api.travis-ci.com/famence/js-keycodes.svg?branch=master)](https://travis-ci.com/famence/js-keycodes)
+[![codecov](https://codecov.io/gh/famence/js-keycodes/branch/master/graph/badge.svg)](https://codecov.io/gh/famence/js-keycodes/branch/master)
+[![NPM version](https://img.shields.io/npm/v/@famence/js-keycodes)](https://www.npmjs.com/package/famence/js-keycodes)
+[![Downloads](https://img.shields.io/npm/dy/@famence/js-keycodes)](https://www.npmjs.com/package/famence/js-keycodes)
+[![License](https://img.shields.io/npm/l/@famence/js-keycodes)](https://tldrlegal.com/license/mit-license)
 
 Key-Codes as constants and helper functions to identify characters
 
@@ -104,6 +104,16 @@ window.addEventListener('keyup', (e) => {
 | SEVEN         | 55             |
 | EIGHT         | 56             |
 | NINE          | 57             |
+| ZERO_NUMPAD   | 96             |
+| ONE_NUMPAD    | 97             |
+| TWO_NUMPAD    | 98             |
+| THREE_NUMPAD  | 99             |
+| FOUR_NUMPAD   | 100             |
+| FIVE_NUMPAD   | 101            |
+| SIX_NUMPAD    | 102            |
+| SEVEN_NUMPAD  | 103            |
+| EIGHT_NUMPAD  | 104            |
+| NINE_NUMPAD   | 105            |
 
 ## Helper functions
 
