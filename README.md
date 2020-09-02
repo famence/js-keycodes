@@ -12,7 +12,7 @@ Key-Codes as constants and helper functions to identify characters
 
 | NPM                    | Yarn                   |
 | ---------------------- | ---------------------- |
-| `npm i -S js-keycodes` | `yarn add js-keycodes` |
+| `npm i -S @famence/js-keycodes` | `yarn add @famence/js-keycodes` |
 
 ## Available Key Codes Constants
 
@@ -118,19 +118,19 @@ window.addEventListener('keyup', (e) => {
 ## Helper functions
 
 ```javascript
-import * as KeyCodes from 'js-keycodes';
+import * as KeyCodes from '@famence/js-keycodes';
 ```
 
 Or individual functions:
 
 ```javascript
-import { isLetter, isNumber } from 'js-keycodes';
+import { isLetter, isNumber } from '@famence/js-keycodes';
 ```
 
 #### Verify if a keyCode is a letter
 
 ```javascript
-import { isLetter, keyCodeToString } from 'js-keycodes';
+import { isLetter, keyCodeToString } from '@famence/js-keycodes';
 
 window.addEventListener('keyup', (e) => {
   if (isLetter(e.keyCode)) {
@@ -143,7 +143,7 @@ window.addEventListener('keyup', (e) => {
 #### Verify if ENTER is pressed on an event
 
 ```javascript
-import { keyCodes } from 'js-keycodes';
+import { keyCodes } from '@famence/js-keycodes';
 
 const handleAnEvent = (event) => {
   if (event.keyCode === keyCodes.ENTER) {
@@ -177,7 +177,7 @@ Return true if the keyCode represent any of the `F` buttons from `F1` to `F12`
 Return a string representation of the keyCode.
 
 ```javascript
-import { keyCodeToString } from 'js-keycodes';
+import { keyCodeToString } from '@famence/js-keycodes';
 
 const myLetter = keyCodeToString(90);
 // -> 'Z'
@@ -191,7 +191,7 @@ const myNumber = keyCodeToString(50);
 Return a string representation based on the programmatic name of the keyCode
 
 ```javascript
-import { getKeyNameFromKeyCode } from 'js-keycodes';
+import { getKeyNameFromKeyCode } from '@famence/js-keycodes';
 
 const myLetter = getKeyNameFromKeyCode(90);
 // -> 'Z'
