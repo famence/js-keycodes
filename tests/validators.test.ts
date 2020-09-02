@@ -2,6 +2,8 @@ import { isF1ToF12, isLetter, isNavigation, isNumber, isWhitespace, keyCodes } f
 
 test('is Number', () => {
   expect(isNumber(keyCodes.TWO)).toBeTruthy();
+  expect(isNumber(keyCodes.FIVE_NUMPAD)).toBeTruthy();
+  expect(isNumber(keyCodes.COMA_NUMPAD)).toBeFalsy();
 });
 
 test('is Letter', () => {

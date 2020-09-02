@@ -80,12 +80,26 @@ export const keyCodes = {
   SEVEN: 55,
   EIGHT: 56,
   NINE: 57,
+
+  ZERO_NUMPAD: 96,
+  ONE_NUMPAD: 97,
+  TWO_NUMPAD: 98,
+  THREE_NUMPAD: 99,
+  FOUR_NUMPAD: 100,
+  FIVE_NUMPAD: 101,
+  SIX_NUMPAD: 102,
+  SEVEN_NUMPAD: 103,
+  EIGHT_NUMPAD: 104,
+  NINE_NUMPAD: 105,
 };
 
 /**
  * Return true when the keyCode is a number
  */
-export const isNumber = (keyCode): boolean => keyCode >= keyCodes.ZERO && keyCode <= keyCodes.NINE;
+export const isNumber = (keyCode): boolean => (
+  (keyCode >= keyCodes.ZERO && keyCode <= keyCodes.NINE)
+  || (keyCode >= keyCodes.ZERO_NUMPAD && keyCode <= keyCodes.NINE_NUMPAD)
+);
 
 /**
  * Identifies if the keyCode is a letter from A to Z
